@@ -22,12 +22,13 @@ var size = vwesque({
       min: 767,
       max: 1280,
     },
+    overflow: true,
     query: getQuery,
     unit: '%',
 })
 ```
 
-### Output
+## Output
 
 ```css
 @media (min-width: 767px; max-width: 770px;) { html { font-size: 62% } }
