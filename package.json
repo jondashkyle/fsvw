@@ -1,6 +1,6 @@
 {
-  "name": "vwesque",
-  "version": "1.0.0",
+  "name": "fsvw",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jondashkyle/vwesque.git"
+    "url": "git+https://github.com/jondashkyle/fsvw.git"
   },
   "keywords": [],
   "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jondashkyle/vwesque/issues"
+    "url": "https://github.com/jondashkyle/fsvw/issues"
   },
-  "homepage": "https://github.com/jondashkyle/vwesque#readme"
+  "homepage": "https://github.com/jondashkyle/fsvw#readme"
 }

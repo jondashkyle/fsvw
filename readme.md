@@ -1,11 +1,8 @@
-<h1 align="center">vwesque</h1>
+<h1 align="center">fsvw</h1>
 
-Accessible `font-size` scaling
+You often see `vw` units used for font-size, however this breaks important accessibility functionality such as page zoom. However, using JS to dynamically set `font-size` creates undesirable flashes between font sizes.
 
-## Usage
-
-Scale your `font-size` without using `%` instead of `vw` but without JS or whatever
-
+This module enables you to fluidly scale your `font-size` with `%` instead of `vw` without requiring JS by outputting a series of media queries.
 
 ## API
 
