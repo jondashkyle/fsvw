@@ -14,19 +14,35 @@ npm i fsvw
 var vwesque = require('vwesque')
 
 var size = vwesque({
-    fontSize: {
-      min: 62.5,
-      max: 160
-    },
-    breakpoints: {
-      min: 767,
-      max: 1280,
-    },
-    overflow: true,
-    query: getQuery,
-    unit: '%',
+  breakpoints: {
+    min: 767,
+    max: 1280,
+  },
+  fontSize: 62.5,
+  unit: '%',
+  overflow: true
 })
 ```
+
+#### `.breakpoints`
+
+An object containing the dimension range for scaling. Properties are `min` and `max` and values must be `int`.
+
+#### `.fontSize`
+
+The base size at the `min` breakpoint.
+
+#### `.fontSizeMax`
+
+The base size at the `max` breakpoint, used for custom non-linear scaling.
+
+#### `.unit`
+
+The `font-size` unit, defaulting to `%`.
+
+#### `.overflow`
+
+If you’d like your min/max size to carry over past the breakpoint. Defaults to `true`.
 
 ## Output
 
