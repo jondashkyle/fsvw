@@ -4,6 +4,10 @@ You often see `vw` units used for font-size, however this breaks important acces
 
 This module enables you to fluidly scale your `font-size` with `%` instead of `vw` without requiring JS by outputting a series of media queries.
 
+```
+npm i fsvw
+```
+
 ## API
 
 ```js
