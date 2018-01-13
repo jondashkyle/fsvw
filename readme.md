@@ -11,9 +11,9 @@ npm i fsvw
 ## API
 
 ```js
-var vwesque = require('vwesque')
+var fsvw = require('fsvw')
 
-var size = vwesque({
+var size = fsvw({
   breakpoints: {
     min: 767,
     max: 1280,
