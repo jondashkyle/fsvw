@@ -8,6 +8,14 @@ This module enables you to fluidly scale your `font-size` with `%` instead of `v
 npm i fsvw
 ```
 
+### NOTE
+
+Turns out there is a much simpler css-only method of accomplishing a very similar result. Shouts out to [@kidneb for this one](https://twitter.com/kidneb/status/952172044032110592).
+
+```
+html { font-size: calc(2vw + 56.50%); }
+```
+
 ## API
 
 ```js
