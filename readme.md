@@ -12,7 +12,7 @@ npm i fsvw
 
 Turns out there is a much simpler css-only method of accomplishing a very similar result. Shouts out to [@kidneb for this one](https://twitter.com/kidneb/status/952172044032110592).
 
-```
+```css
 html { font-size: calc(2vw + 56.50%); }
 ```
 
